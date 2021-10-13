@@ -1,0 +1,33 @@
+{
+  "name": "node-user-authentication",
+  "version": "1.0.0",
+  "description": "API de Autenticação desenvolvida com NodeJS",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavoferreiradev/node-user-authentication.git"
+  },
+  "keywords": [
+    "API",
+    "Rest",
+    "Node",
+    "NodeJS",
+    "TypeScript"
+  ],
+  "author": "Gustavo Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavoferreiradev/node-user-authentication/issues"
+  },
+  "homepage": "https://github.com/gustavoferreiradev/node-user-authentication#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^16.10.4",
+    "typescript": "^4.4.4"
+  }
+}
